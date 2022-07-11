@@ -23,6 +23,27 @@ body{
 
 
 }
+.div-1{
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0);
+}
+.page-1{
+    width: 400px;
+    margin: 10px;
+    box-shadow: 6px 7px 9px 2px rgb(0 0 0 / 70%);
+    border-radius: 0px 0px 15px 15px;
+}
+@media (max-width: 600px){
+    .page-1{
+        max-width: 200px;
+    }
+}
 .div{
     width: auto;
     height: auto;
